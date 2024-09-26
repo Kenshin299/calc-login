@@ -18,29 +18,30 @@ This project is built using [Next.js](https://nextjs.org/) and requires Node.js 
 
 2. **Install dependencies**:
    
-   npm install
+   - npm install
    **or**
-   yarn install
+   - yarn install
 
 3. **Run the development server**:
-   npm run dev
+   - npm run dev
    **or**
-   yarn dev
+   - yarn dev
 
    The application will be available at http://localhost:3000. (by default)
 
 ## Scripts
 
-   npm run dev: Starts the development server.
-   npm run build: Builds the application for production.
-   npm start: Starts the production server.
+   - npm run dev: Starts the development server.
+   - npm run build: Builds the application for production.
+   - npm start: Starts the production server.
 
 ## Node.js Version Check
 
    Ensure your Node.js version is 21 or higher by running:
-   node -v
+
+   - node -v
    **or**
-   node --version
+   - node --version
 
 ## Learn More
    - To learn more about Next.js, take a look at the following resources:
