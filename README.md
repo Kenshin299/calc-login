@@ -19,17 +19,23 @@ This project is built using [Next.js](https://nextjs.org/) and requires Node.js 
 2. **Install dependencies**:
    
    ```bash
-   - npm install
+   npm install
+   ```
    **or**
+   
+   ```bash
    - yarn install
 
 3. **Run the development server**:
 
    ```bash
-   - npm run dev
+   npm run dev
+   ```
    **or**
-   - yarn dev
-
+   
+   ```bash
+   yarn dev
+   ```
    The application will be available at http://localhost:3000. (by default)
 
 ## Scripts
@@ -44,8 +50,12 @@ This project is built using [Next.js](https://nextjs.org/) and requires Node.js 
 
    ```bash
    - node -v
+   ```
    **or**
+   
+   ```bash
    - node --version
+   ```
 
 ## Learn More
    - To learn more about Next.js, take a look at the following resources:
