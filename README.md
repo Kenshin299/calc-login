@@ -19,12 +19,12 @@ This project is built using [Next.js](https://nextjs.org/) and requires Node.js 
 2. **Install dependencies**:
    
    npm install
-   # or
+   **or**
    yarn install
 
 3. **Run the development server**:
    npm run dev
-   # or
+   **or**
    yarn dev
 
    The application will be available at http://localhost:3000. (by default)
@@ -39,7 +39,7 @@ This project is built using [Next.js](https://nextjs.org/) and requires Node.js 
 
    Ensure your Node.js version is 21 or higher by running:
    node -v
-   # or
+   **or**
    node --version
 
 ## Learn More
