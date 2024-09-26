@@ -18,11 +18,14 @@ This project is built using [Next.js](https://nextjs.org/) and requires Node.js 
 
 2. **Install dependencies**:
    
+   ```bash
    - npm install
    **or**
    - yarn install
 
 3. **Run the development server**:
+
+   ```bash
    - npm run dev
    **or**
    - yarn dev
@@ -39,6 +42,7 @@ This project is built using [Next.js](https://nextjs.org/) and requires Node.js 
 
    Ensure your Node.js version is 21 or higher by running:
 
+   ```bash
    - node -v
    **or**
    - node --version
