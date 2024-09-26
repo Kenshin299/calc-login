@@ -1,0 +1,164 @@
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #121212; /* Adjust the background to match the dark theme */
+  }
+  
+  .header {
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 2vh;
+    color: #fff;
+    font-family: 'UbuntuMono Nerd Font', monospace;
+  }
+  
+  .pantallaCalc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    height: 12vh;
+    background-color: #1c1c1e;
+    color: #fff;
+    font-size: 3vw;
+    padding: 1vh 2vw;
+    margin-bottom: 2vh;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .previousOperand {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 2vw;
+  }
+  
+  .currentOperand {
+    font-size: 4vw;
+  }
+  
+  .botonesCalc {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.8vw;
+    width: 90vw;
+  }
+
+  .botonLogout{
+    background-color: #440101;
+    padding: 0.5em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    font-size: 2.5em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .botonLogout:hover {
+    transform: translateY(-3px);
+    background-color: #830000;
+  }
+  
+  .botonLogout:active {
+    transform: translateY(0px);
+    background-color: #8f0000;
+  }
+
+  .boton {
+    background-color: #2c2c2e;
+    padding: 0.5em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    font-size: 2.5em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .boton:hover {
+    transform: translateY(-3px);
+    background-color: #3a3a3c;
+  }
+  
+  .boton:active {
+    transform: translateY(0px);
+    background-color: #464649;
+  }
+
+  .clearBtn {
+    grid-column: span 2;
+    border: none;
+    font-size: 2em;
+    padding: 1vh 0;
+    background-color: #3a3a3c;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .clearBtn:hover {
+    transform: translateY(-3px);
+    background-color: #4a4a4d;
+  }
+
+  .clearBtn:active {
+    transform: translateY(0px);
+    background-color: #464649;
+  }
+  
+  .clearHistoryBtn {
+    border: none;
+    font-size: 2em;
+    padding: 1vh 0;
+    background-color: #3a3a3c;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .clearHistoryBtn:hover {
+    transform: translateY(-3px);
+    background-color: #4a4a4d;
+  }
+
+  .clearHistoryBtn:active {
+    transform: translateY(0px);
+    background-color: #464649;
+  }
+  
+  .historyBtn {
+    border: none;
+    font-size: 2em;
+    padding: 1vh 0;
+    background-color: #3a3a3c;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .historyBtn:hover {
+    transform: translateY(-3px);
+    background-color: #4a4a4d;
+  }
+
+  .historyBtn:active {
+    transform: translateY(0px);
+    background-color: #464649;
+  }
